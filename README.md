@@ -6,7 +6,7 @@ The first important parts of a basic CNN is convolutional, activation, dropout, 
 
 ## Results
 The best accuracy we acheived with our CNN was 83.35% after running it with 25 epochs and a batch size of 24. 
-![alt text](NN_Pictures\Screenshot (86).png "Our Accuracy result after 30 epochs and a batch size of 100")
+![alt text](NN_Pictures\keras_dataset.png "Our Accuracy result after 30 epochs and a batch size of 100")
 
 ## Instructions on How to Run
 TO run this program, you must download the keras and numpy libaries through the command prompt. Since we used Anaconda Spyder, we installed the libararies throught the Ananconda command prompt. To improve the accuracy of the CNN, a user could change and run a different number of epochs, a larger batch size if the user has a better proccessor, and a user can also change the pooling size by increments of 2 based on the image size that is being used. You can also change the size of the filters, though they should always be ascending, to a larger size to extract a higher number of abstractions from the raw pixel data that is fed into it. We selected 21 as the seed number so that our accuracy was being compared to the same value every time. The user can input any value there to test the accuracy of the CNN. 
